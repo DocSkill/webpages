@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Courier New", monospace;
+  font-weight: normal;
+}
+
+header {
+  height: 440px;
+  background-color: #1a242d;
+}
+
+h1.hero {
+  color: white;
+  font-size: 48px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 167px;
+  padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 360px){
+  h1.hero {
+    font-size: 35px;
+  }
+
+}
+
+p.kicker {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1;
+  padding-top: 18px;
+}
+
+@media only screen and (max-width: 360px){
+  p.kicker {
+    font-size: 14px;
+    padding-top: 8px;
+  }
+
+}
+
+div#link {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+a.mail {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 18px 20px;
+  border:solid white 2px;
+  border-radius: 20px;
+}
+
+a.mail:hover {
+  background-color: white;
+  color: #ccc;
+}
+
+@media only screen and (max-width:360px){
+  a.mail {
+    font-size: 15px;
+    padding: 8px 12px;
+    margin-top: 15px;
+  }
+}
+
+.about {
+  height: 357px;
+}
+
+@media only screen and (max-width: 360px){
+  .about {
+    height: 200px;
+  }
+}
+
+.about h2 {
+  font-weight: lighter;
+  font-size: 21px;
+  text-align: center;
+  padding-top: 54px;
+  color: #1a242d;
+}
+
+.aboutSpeech {
+  text-align: center;
+  padding-top: 58px;
+  margin: 0px 50px 0;
+}
+
+@media only screen and (max-width:360px){
+  .about h2 {
+    padding-top: 20px;
+    font-size: 18px;
+  }
+
+  .aboutSpeech {
+    padding-top: 8px;
+    font-size: 14px;
+    margin: 0px 10px 0;
+  }
+}
+
+footer {
+  height: 222px;
+  background-color: #34b778;
+}
+
+@media only screen and (max-width: 360px){
+  footer {
+    height: 150px;
+  }
+}
+
+footer ul {
+  text-decoration: none;
+  text-align: center;
+  padding-top: 200px;
+}
+
+footer ul li {
+  display: inline-block;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul li a:hover {
+  color: #1a242d;
+}
+
+@media only screen and (max-width:360px){
+  footer ul li a {
+    font-size: 12px;
+  }
+
+  footer ul li {
+    padding-left: 5px;
+  }
+
+  footer ul {
+    padding-top: 120px;
+  }
+}
