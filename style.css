@@ -4,159 +4,175 @@
 }
 
 body {
-  font-family: "Courier New", monospace;
-  font-weight: normal;
+  font-family: "Montserrat", Arial;
+  height: 100vh;
+  color: white;
 }
 
 header {
-  height: 440px;
-  background-color: #1a242d;
+    background-color: black;
+    height: 1024px;
 }
 
-h1.hero {
-  color: white;
-  font-size: 48px;
-  font-weight: lighter;
-  text-transform: uppercase;
-  text-decoration: underline;
-  text-align: center;
-  padding-top: 167px;
-  padding-bottom: 5px;
+.logo img {
+  height: 72px;
+  width: 72px;
+  margin-top: 50px;
+  margin-left: 60px;
+  position: absolute;
 }
 
-@media only screen and (max-width: 360px){
-  h1.hero {
-    font-size: 35px;
-  }
-
+nav {
+  float: right;
+  margin-right: 94px;
+  margin-top: 75px;
 }
 
-p.kicker {
-  color: white;
-  font-size: 18px;
-  text-align: center;
-  line-height: 1;
-  padding-top: 18px;
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding-left: 25px;
 }
 
-@media only screen and (max-width: 360px){
-  p.kicker {
-    font-size: 14px;
-    padding-top: 8px;
-  }
-
-}
-
-div#link {
-  display: flex;
-  align-items: center;
-  margin-top: 40px;
-}
-
-a.mail {
-  color: white;
+nav ul li a {
   text-decoration: none;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  color: #b2b2b2;
+  font-family: "Open Sans", Arial;
+  font-size: 19.4px;
+  font-weight: lighter;
+}
+
+nav ul li a:hover {
+  color: #d3d1d1;
+}
+
+.hero {
+  font-family: "Montserrat", Arial;
+  font-size: 92.9px;
+  font-weight: normal;
+  padding-top: 397px;
   text-align: center;
-  padding: 18px 20px;
-  border:solid white 2px;
-  border-radius: 20px;
+  padding-bottom: 210px;
 }
 
-a.mail:hover {
+.kicker {
+  font-family: "Montserrat", Arial;
+  font-size: 33.59px;
+  font-weight: normal;
+  padding-left: 54px;
+  padding-bottom: 65px;
+}
+
+.more a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", Arial;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 26px 25px;
+  font-size: 19.28px;
+  margin-left: 54px;
+}
+
+.more a:hover {
   background-color: white;
-  color: #ccc;
-}
-
-@media only screen and (max-width:360px){
-  a.mail {
-    font-size: 15px;
-    padding: 8px 12px;
-    margin-top: 15px;
-  }
+  color: #727272;
 }
 
 .about {
-  height: 357px;
+  height: 762px;
 }
 
-@media only screen and (max-width: 360px){
-  .about {
-    height: 200px;
-  }
+.aboutHead {
+  color: black;
+  font-family: "Montserrat", Arial
+  font-size: 33.59px;
+  padding: 56px 60px 90px;
 }
 
-.about h2 {
-  font-weight: lighter;
-  font-size: 21px;
-  text-align: center;
-  padding-top: 54px;
-  color: #1a242d;
+.aboutScript {
+  font-family: "Open Sans", Arial;
+  color: black;
+  padding-left: 60px;
+  padding-right: 50px;
+  font-size: 20px;
+  padding-bottom: 70px;
 }
 
-.aboutSpeech {
-  text-align: center;
-  padding-top: 58px;
-  margin: 0px 50px 0;
+bold {
+  font-weight: bold;
 }
 
-@media only screen and (max-width:360px){
-  .about h2 {
-    padding-top: 20px;
-    font-size: 18px;
-  }
-
-  .aboutSpeech {
-    padding-top: 8px;
-    font-size: 14px;
-    margin: 0px 10px 0;
-  }
+.aboutScript a {
+  color:#2a3c77;
 }
 
-footer {
-  height: 222px;
-  background-color: #34b778;
-}
-
-@media only screen and (max-width: 360px){
-  footer {
-    height: 150px;
-  }
-}
-
-footer ul {
+.projects a {
   text-decoration: none;
-  text-align: center;
-  padding-top: 200px;
+  color: black;
+  font-family: "Open Sans", Arial;
+  border: solid 2px black;
+  border-radius: 10px;
+  padding: 20px 25px;
+  font-size: 19.28px;
+  margin-left: 60px;
 }
 
-footer ul li {
-  display: inline-block;
-  padding-left: 20px;
-  text-decoration: none;
-}
-
-footer ul li a {
-  text-decoration: none;
+.projects a:hover {
+  background-color: black;
   color: white;
 }
 
-footer ul li a:hover {
-  color: #1a242d;
+.footer {
+  background-color: black;
+  height: 762px;
 }
 
-@media only screen and (max-width:360px){
-  footer ul li a {
-    font-size: 12px;
-  }
+.mainHead {
+  font-family: "Montserrat", Arial
+  font-size: 33.59px;
+  padding: 56px 60px 90px;
+}
 
-  footer ul li {
-    padding-left: 5px;
-  }
+.sendMessage a {
+  text-decoration: none;
+  color: white;
+  font-family: "Open Sans", Arial;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-size: 15px;
+  margin-left: 60px;
+}
 
-  footer ul {
-    padding-top: 120px;
-  }
+.sendMessage a:hover {
+  background-color: white;
+  color: black;
+}
+
+.hitMe {
+  font-family: "Open Sans", Arial;
+  color: white;
+  padding-left: 60px;
+  padding-right: 50px;
+  font-size: 20px;
+  padding-bottom: 70px;
+  margin-top: 50px;
+  font-weight: lighter;
+}
+
+.social a {
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans", Arial;
+  font-size: 15px;
+  border: solid 2px white;
+  border-radius: 10px;
+  padding: 12px 20px;
+  margin: 0 60px 20px;
+}
+
+.social a:hover {
+  background-color: white;
+  color: black;
 }
